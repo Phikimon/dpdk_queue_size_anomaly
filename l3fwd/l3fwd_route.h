@@ -85,7 +85,7 @@ extern struct lpm_route_rule *route_base_v6;
 extern int route_num_v4;
 extern int route_num_v6;
 
-extern const struct ipv4_l3fwd_route ipv4_l3fwd_route_array[16];
+extern const struct ipv4_l3fwd_route ipv4_l3fwd_route_array[17];
 extern const struct ipv6_l3fwd_route ipv6_l3fwd_route_array[16];
 
 extern const struct ipv4_l3fwd_em_route ipv4_l3fwd_em_route_array[16];

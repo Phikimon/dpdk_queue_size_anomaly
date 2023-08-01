@@ -217,6 +217,9 @@ const struct ipv4_l3fwd_route ipv4_l3fwd_route_array[] = {
 	{RTE_IPV4(198, 18, 13, 0), 24, 13},
 	{RTE_IPV4(198, 18, 14, 0), 24, 14},
 	{RTE_IPV4(198, 18, 15, 0), 24, 15},
+
+	/* Direct all experimental traffic to port 0 */
+	{RTE_IPV4(192, 168, 0, 0), 16, 0},
 };
 
 /*
